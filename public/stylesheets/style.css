@@ -1,0 +1,154 @@
+/* general styling */
+body {
+  font: 14px "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
+  background-color: #E0E0E0;
+  color: black;
+}
+
+a {
+	color: blue;
+  text-decoration: underline;
+}
+
+p {
+  text-align: left;
+}
+
+.jumbotron h1 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+/* cover styling */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mastfoot {
+  color: inherit; /* IE8 proofing */
+  text-align: center;
+}
+
+.roundImg {
+  border-radius: 15px;
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+}
+
+.inner {
+  padding: 30px;
+}
+
+/* column styling */
+.col-md-5 {
+  padding-left: 100px;
+}
+
+/* jumbotron styling */
+.jumbotron {
+  text-align: center;
+  background-color: inherit;
+  color: inherit;
+}
+
+/*Social media buttons created by ONDŘEJ PAGE BÁRTA and modified by James Lee*/
+.social {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-clip: content-box;
+  padding: 0.25px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 40px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 20%;
+}
+
+.social .link:hover {
+  color: white;
+  -webkit-transform: rotate(360deg);
+  background-color: orange !important;
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.linkedin {
+  background-color: #3B5998;
+  color: white;
+}
+
+.social .link.github {
+  background-color: black;
+  color: white;
+}
+
+.social .link.download {
+  background-color: green;
+  color: white;
+}
