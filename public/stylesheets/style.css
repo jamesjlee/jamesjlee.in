@@ -129,7 +129,7 @@ p {
 }
 
 .social .link.google-plus {
-  background-color: tomato;
+  background-color: #D14836;
   color: white;
 }
 
@@ -151,4 +151,10 @@ p {
 .social .link.download {
   background-color: green;
   color: white;
+}
+
+.social .link.email {
+  background-color: #6A3A8D;
+  color: white;
+  font-size: 35px;
 }
