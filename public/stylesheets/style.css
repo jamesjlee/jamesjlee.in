@@ -1,7 +1,7 @@
 /* general styling */
 body {
   font: 14px "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
-  background-image: url('localhost:3000/images/andromeda.jpg');
+  background-image: url('/images/me+funnelcakes.png');
   color: white;
 }
 
