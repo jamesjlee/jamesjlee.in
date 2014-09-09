@@ -1,7 +1,7 @@
 /* general styling */
 body {
   font: 14px "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
-  background-image: url("andromeda.jpg");
+  background-image: url("/images/andromeda.jpg");
   color: white;
 }
 
